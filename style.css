@@ -1,14 +1,16 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:20px;
     height: 100vh;
 }
 a{
     text-decoration: none;
 }
 .btn{
-    display: inline-block;
+    display: block;
     width:150px;
     height:25px;
     border-radius: 15px;
